@@ -1,4 +1,2 @@
-womandevelopersday.github.io
-============================
-
-orgonization website
+womandevelopersday.org
+===========================
