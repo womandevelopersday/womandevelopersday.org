@@ -58,6 +58,7 @@ jQuery(function($) {
                                     }
         });
     });
+ 
 });
 
 function initialize() {

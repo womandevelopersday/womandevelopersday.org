@@ -14,7 +14,7 @@
 
 
         <!-- Google Web Font Embed -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+      <!--   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'> -->
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
@@ -24,6 +24,10 @@
         <link href="css/templatemo_style.css"  rel='stylesheet' type='text/css'>
 
         <style>
+        body
+        {
+            background: url(images/backback3.jpg) fixed repeat-x;
+        }
         #timeleft  span
         {
             padding: 10px;
@@ -39,7 +43,7 @@
 
     <body>
 
-       <!--  <div class="templatemo-top-bar" id="templatemo-top">
+      <!--   <div class="templatemo-top-bar" id="templatemo-top">
             <div class="container">
                 <div class="subheader">
                     <div id="phone" class="pull-left">
@@ -53,10 +57,10 @@
                 </div>
             </div>
         </div> -->
-        <div class="templatemo-top-menu">
-            <div class="container">
+        <div class="templatemo-top-menu" style="background:none;">
+            <!-- <div class="container"> -->
                 <!-- Static navbar -->
-                <div class="navbar navbar-default" role="navigation">
+                <div class="navbar navbar-fixed-top   navbar-default" id="nav-bar" role="navigation" style="margin-top: -25px;" >
                     <div class="container">
                         <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -65,11 +69,15 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#" rel="nofollow"><img class="pull-left" src="images/womanlogo.jpg" height="100px" alt="logo"/><h3>PAUFSC / WOMAN DEVELOPERS DAY</h3></a>
+                                <a class="navbar-brand" href="#" rel="nofollow"><img class="pull-left" src="images/header.png" height="45px" alt="logo"/><!-- <h3>PAUFSC / WOMAN DEVELOPERS DAY</h3> --></a>
                         </div>
                         <div class="navbar-collapse collapse" id="templatemo-nav-bar">
-                            <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
-                                <li class="active"><a href="#templatemo-top">Anasayfa</a></li>
+                            <ul class="nav navbar-nav navbar-right" style="margin-top: 35px;">
+                                <li class="active"><a href="#templatemo-carousel">Anasayfa</a></li>
+                                <li class=""><a href="#hakkinda">Hakkında</a></li>
+                                <li class=""><a href="#oturumlar">Otuurumlar</a></li>
+                                <li class=""><a href="#nerede">Nerede?</a></li>
+                                <li class=""><a href="#sponsorlar">Sponsorlar</a></li>
                                 <!-- <li><a href="#templatemo-about">ABOUT</a></li>
                                 <li><a href="#templatemo-portfolio">PORTFOLIO</a></li>
                                 <li><a href="#templatemo-blog">BLOG</a></li>
@@ -78,25 +86,26 @@
                         </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
                 </div><!--/.navbar -->
-            </div> <!-- /container -->
+            <!-- </div> /container -->
         </div>
 
         <div>
             <!-- Carousel -->
-            <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
+            <div style="background:none;" id="templatemo-carousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                <!--  <ol class="carousel-indicators">
                     <li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#templatemo-carousel" data-slide-to="1"></li>
                     <li data-target="#templatemo-carousel" data-slide-to="2"></li>
-                </ol>
- -->                <div class="carousel-inner">
+                </ol>-->  
+               <div class="carousel-inner">
                     <div class="item active">
                         <div class="container">
                             <div class="carousel-caption" style="background:rgba(0,0,0,0.5);">
                                 <h1>WOMAN DEVELOPERS DAY</h1>
                                 <p>YER : PAMUKKALE ÜNİVERSİTESİ KAMPÜSÜ</p>
-                                <p>TARİH : 03 MAYIS 2014</p>
+                                <p>TARİH : 03 MAYIS 2014 </p>
+                                <p>SAAT : 10:00 </p>
                                 <p id="timeleft">Time Released!</p>
                             </div>
                         </div>
@@ -140,7 +149,7 @@
             </div>
         </div> -->
 
-       <!--  <div class="templatemo-service">
+        <!-- <div class="templatemo-service" style="background:white">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -273,26 +282,152 @@
                     </ul>
             </div>
         </div> --><!-- /.templatemo-team -->
+        
+        
 
-        <!-- <div id="templatemo-portfolio" >
+
+        <div id="hakkinda" style="background:white">
             <div class="container">
                 <div class="row">
                     <div class="templatemo-line-header" >
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey"><a href="http://www.onlyimage.com" title="Image" class="txt_darkgrey_strong"  target="_blank">OUR</a> PORTFOLIO</span>
-                            <hr class="team_hr team_hr_right hr_gray" />
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
+                            WDD Hakkında?</a></span>
+                            <hr class="team_hr team_hr_right hr_gray"  />
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="templatemo-gallery-category" style="font-size:16px; margin-top:80px;">
+                    <div class="templatemo-gallery-category" style="background:white;font-size:16px; margin-top:80px;">
                         <div class="text-center">
-                            <a class="active" href=".gallery">All</a> / <a href=".gallery-design">Web Design </a>/ <a href=".gallery-graphic">Graphic</a> / <a href=".gallery-inspiration">Inspiration</a> / <a href=".gallery-creative">Creative</a>
+                                WDD; bilişim dünyasına adım atmak isteyen kadınlarımızın eğitim ve iş hayatındaki yerinin önemini arttırmak, dünyadaki ilk yazılımcının bir kadın olduğunu hatırlatmak amacıyla düzenlenecek etkinliklerin ilk ve en önemli adımıdır..
+                           <br>
+                           <br>
+                           <br>
+                                Biz bu etkinlikle birlikte yazılım sektöründe kadın yazılımcı farkındalığı yaratmak ve WDD ‘i bir marka haline getirmek istiyoruz.
                         </div>
                     </div>
-                </div>  /.row -->
+                </div>  
+        <div id="oturumlar" style="background:white">
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header" >
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
+                            Oturumlar</span>
+                            <hr class="team_hr team_hr_right hr_gray"  />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="templatemo-gallery-category" style="background:white;font-size:16px; margin-top:80px;">
+                        <div class="text-center ">
+                            <table style="margin-left: 70px; width:80%;border:0">
+                                <tr>
+                                    <td valign="top">
+                                        <div  class="images pull-left" style="float:left;padding-right: 10px;margin-top: 15px;">
+                                        <img src="images/avatar1.jpg" width="72">
+                                        <img src="images/avatar2.jpg" width="72" style="margin-top: 195px;">
+                                        <img src="images/avatar3.jpg" width="72" style="margin-top: 195px;">
+                                        </div>
+                                    </td>
+                                    <td valign="top">
+                                        <div class="text" style="border-left:1px solid gray;padding-left: 10px;">
+                                            <h4 class="date text-left">10.15-11.00</h4>
+                                            <p>
+                                                <h1 class="text-left">Gülçin Yıldırım
+</h1>
+<p class="text-left">
+    <a href="" class="text-left">Gülçincik</a>
+</p>
+<hr>
+                                                <p class="text-left" style="margin-bottom: 50px;">Markafoni bünyesinde DBA olarak görev alan konuşmacımız,postgresql ve pl/sql alanlarında uzmanlaşmıştır. Etkinliğimiz içerisinde uzman olduğu alanlardan biri olan postgresql hakkında sunum yapacaktır. POSTGRESQL nedir?</p>
+                                                <h4 class="date text-left">11.25-12.00</h4>
+                                                <h1 class="text-left">Nesrin Kalender</h1>
+                                                <p class="text-left">
+                                                    <a href="" class="text-left">Nesrincik</a>
+                                                </p>
+                                                <hr>
+                                                <p class="text-left" style="margin-bottom: 50px;">Gri Creative şirketinde Front End Developer olarak görev alan konuşmacımız, Html, Sass alanlarında uzmanlaşmıştır. Etkinliğimiz içerisinde Sass hakkında sunum yapacaktır. SASS nedir?
+                                                <h4 class="date text-left">12.15-13:00</h4>
+                                                <h1 class="text-left">Seval Ünver</h1>
+                                                <p class="text-left">
+                                                    <a href="" class="text-left">Sevalcik</a>
+                                                </p>
+                                                <hr>
+                                                <p class="text-left" style="margin-bottom: 50px;">Software Engineer olarak cybersoft şirketinde görev almış, Java ve PHP alanlarında uzmanlaşmıştır. Java Developer olarak birçok başarıya imza atmış olan konuşmacımız etkinliğimizde Java EE üzerine sunum yapacaktır. Java EE nedir?
+
+</p>
+
+                                            </p>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            
+                        </div>
+                       <!--  <div class="clearfix"></div>
+                        <div class="text-center">
+                            <div class="images pull-left" style="padding-right: 10px; border-right:1px solid gray">
+                                <img src="x.jpg" width="72">
+                            </div>
+                            <div class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, itaque commodi quasi est voluptatum minima voluptate numquam quidem architecto cupiditate quam perferendis tenetur ipsum dolores quia corporis soluta delectus eligendi?
+                            </div>
+                        </div> -->
+                    </div>
+                </div>  
+
+<div id="nerede" style="background:white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="templatemo-line-header" >
+                                <div class="text-center">
+                                    <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
+                                    WDD Nerde?</a></span>
+                                    <hr class="team_hr team_hr_right hr_gray"  />
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="templatemo-gallery-category" style="background:white;font-size:16px; margin-top:80px;">
+                                <div class="text-center">
+                                   <section class="map" id="mekan">
+                                        <span class="map-square"></span>
+                                        <div class="vcard">
+                                            <p class="org">Bahçeşehir Üniversitesi</p>
+                                            <p class="adr">
+                                                <span class="street-address">
+                                                    Çırağan Caddesi Osmanpaşa Mektebi Sokak No: 4 - 6 <br/>
+                                                    34353 Beşiktaş, İstanbul
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div id="map-content"></div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>  
+
+        <div id="sponsorlar" style="background:white">
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header" >
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
+                            Sponsorlar</a></span>
+                            <hr class="team_hr team_hr_right hr_gray"  />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="templatemo-gallery-category" style="background:white;font-size:16px; margin-top:80px;">
+                        
+                    </div>
+                </div>  
+         
+
+                
 
 
-               <!--  <div class="clearfix"></div>
                 <div class="text-center">
                     <ul class="templatemo-project-gallery" >
                         <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-graphic" >
@@ -321,113 +456,12 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-3.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-3.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>GREEN COLORS</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-design" >
-                            <a class="colorbox" href="images/full-gallery-image-4.jpg" data-group="gallery-design">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-4.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Web Design</h5>
-                                        <hr />
-                                        <h4>CAMERA</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-5.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-5.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>PLANT</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="col-lg-2 col-md-2 col-sm-2  gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-6.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-6.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>CABLE TRAIN</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-design" >
-                            <a class="colorbox" href="images/full-gallery-image-7.jpg" data-group="gallery-design">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-7.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Web Design</h5>
-                                        <hr />
-                                        <h4>CITY</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-creative" >
-                            <a class="colorbox" href="images/full-gallery-image-8.jpg" data-group="gallery-creative">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-8.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Creative</h5>
-                                        <hr />
-                                        <h4>BIRDS</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-graphic" >
-                            <a class="colorbox" href="images/full-gallery-image-9.jpg" data-group="gallery-graphic">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-9.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Graphic</h5>
-                                        <hr />
-                                        <h4>NATURE</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="col-lg-2 col-md-2 col-sm-2 gallery gallery-inspiration" >
-                            <a class="colorbox" href="images/full-gallery-image-10.jpg" data-group="gallery-inspiration">
-                                <div class="templatemo-project-box">
-                                    <img src="images/gallery-image-10.jpg" class="img-responsive" alt="gallery" />
-                                    <div class="project-overlay">
-                                        <h5>Inspiration</h5>
-                                        <hr />
-                                        <h4>DOGGY</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                    </ul> --><!-- /.gallery -->
-               <!--  </div>
-                <div class="clearfix"></div>
-                <div class="row text-center">
-                    <a class="btn_loadmore btn btn-lg btn-orange" href="#" role="button">LOAD MORE</a>
-                </div> -->
+                     
+                    </ul> 
+                </div>
+    
+<div class="clearfix"></div>
+            
            <!--  </div> --><!-- /.container -->
         <!-- </div> -->  <!-- /.templatemo-portfolio -->
 
@@ -596,8 +630,8 @@
             <!-- </div> --><!-- /.container -->
        <!--  </div> --> 
 
-        <!-- <div class="templatemo-partners" >
-            <div class="container">
+        <!-- <div class="templatemo-partners" style="background:white;" >
+            <div class="container" style="background:white;">
                 <div class="row">
 
 
@@ -607,7 +641,7 @@
                             <hr class="team_hr team_hr_right hr_gray" />
                         </div>
                     </div>
-                    <div class="clearfix"></div>
+                   
 
 
                     <div class="text-center">
@@ -642,7 +676,7 @@
         </div> -->
 
 
-        <div class="templatemo-footer" >
+        <div class="templatemo-footer" style="background:white;" >
             <div class="container">
                 <div class="row">
                     <div class="text-center">
@@ -679,7 +713,7 @@
                             <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Yukarı</a>
                             <div class="height30"></div>
                         </div>
-                        <div class="footer_bottom_content">Copyright © <script type="text/javascript">document.write(new Date().getFullYear())</script> <a href="#">PauFSC</a> - Design: <a class="link_orange" href="http://www.templatemo.com/preview/templatemo_395_urbanic" rel="nofollow"><span class="txt_orange">Urbanic</span></a></div>
+                        <div class="footer_bottom_content">Copyright © <script type="text/javascript">document.write(new Date().getFullYear())</script> <a href="#">PauFSC</a> - Design: <a class="link_orange" href="https://tr.linkedin.com/pub/kemal-kanok/68/775/7b0" rel="nofollow"><span class="txt_orange">Kemal Kanok</span></a></div>
 
                     </div>
                 </div>
@@ -688,9 +722,9 @@
 
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js"  type="text/javascript"></script>
-        <script src="js/stickUp.min.js"  type="text/javascript"></script>
-        <script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
-        <script src="js/templatemo_script.js"  type="text/javascript"></script>
+         <!-- <script src="js/stickUp.min.js"  type="text/javascript"></script>
+        // <script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
+        // <script src="js/templatemo_script.js"  type="text/javascript"></script> -->
         <script src="js/jquery.plugin.min.js"  type="text/javascript"></script>
         <script src="js/jquery.countdown.js"  type="text/javascript"></script>
         <script src="js/jquery.countdown-tr.js"  type="text/javascript"></script>
@@ -704,11 +738,41 @@
                     
                     // $('#year').text(austDay.getFullYear());
                 });
-                austDay = new Date("2014 5 3");
-                    $('#timeleft').countdown({until: austDay});
+                austDay = new Date("2014 5 3 10:00:00");
+                $('#timeleft').countdown({until: austDay});
+            
+                $(document).scroll(function  (event) {
+                var top = $(window).scrollTop();
+                if(top > 0)
+                {
+                    // console.log($("#nav-bar").length);
+                    // console.log("white");
+                    // alert('change');
+                        if($("#nav-bar").hasClass('navbar-active') == false)
+                        {
+                          $("#nav-bar").addClass('navbar-active');  
+                        }
+                        $(this).fadeOut('slow');
+                    
+                   
+                }
+                else
+                {
+                    if($("#nav-bar").hasClass('navbar-active') == true)
+                    {
+                     $("#nav-bar").removeClass('navbar-active')   
+                    }
+                      $("#nav-bar").addClass('navbar-default');  
+
+
+                }
+                // console.log(top);
             });
+        });
         </script>
-    <script type='text/javascript' src='js/logging.js'></script>
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDFdZSm_8PIJEXdxqhwXqRkygsQgDfDZzk&sensor=true"></script>
+            <script src="http://phpkonf.org/assets/gomap/jquery.gomap-1.3.2.js"></script>
+            <script>$("#map-content").goMap({zoom: 17,maptype: 'ROADMAP',markers: [{latitude: 41.042499,longitude: 29.009295}]});</script>
 </body>
 </html>
 <!--

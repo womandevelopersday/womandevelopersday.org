@@ -3,7 +3,7 @@
 body, html { overflow-x:hidden; }
 
 body {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     font-family:  'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-size: 12px;
 	
@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
           border-radius: 0 !important;
 }
 
+.clearfix
+{
+    background:white;
+}
 .templatemo_clear {
 	clear: both;
 }
@@ -36,7 +40,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .templatemo-top-menu {
     min-height:110px;
-    background-color:#ffffff;
+    /*background-color:#ffffff;*/
     z-index: 5000;
     width:100%;
 }
@@ -192,8 +196,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     color: #929292;
 }
 .navbar-default {
-    background-color:#fff;
+    /*background-color:#fff;*/
+    background: rgba(0,0,0,0.5);
     border:none;
+}.navbar-active {
+    /*background-color:#fff;*/
+    background: rgb(255,255,255);
+    border:none;
+    border-bottom: 1px solid  #ff7600;
 }
 
 .navbar-default .navbar-nav > .active > a,
