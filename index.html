@@ -743,6 +743,32 @@
             
                 $(document).scroll(function  (event) {
                 var top = $(window).scrollTop();
+                console.log(top);
+                if(top < 609)
+                {
+                    $("li.active").removeClass('active');
+                    $(".navbar-right  >  li").eq(0).addClass('active');
+                }
+                else if( top > 609 && top < 941)
+                {
+                    $("li.active").removeClass('active');
+                    $(".navbar-right > li").eq(1).addClass('active');
+                }
+                else if( top > 941 && top < 1954)
+                {
+                    $("li.active").removeClass('active');
+                    $(".navbar-right > li").eq(2).addClass('active');
+                }
+                else if( top > 1954 && top < 2262)
+                {
+                    $("li.active").removeClass('active');
+                    $(".navbar-right > li").eq(3).addClass('active');
+                }
+                else if( top > 2262)
+                {
+                    $("li.active").removeClass('active');
+                    $(".navbar-right > li").eq(4).addClass('active');
+                }
                 if(top > 0)
                 {
                     // console.log($("#nav-bar").length);
