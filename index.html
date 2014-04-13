@@ -757,30 +757,35 @@
                 });
                 austDay = new Date("2014 5 3 10:00:00");
                 $('#timeleft').countdown({until: austDay});
+                var h1 = $("#templatemo-carousel").offset().top;
+                var h2 = $("#hakkinda").offset().top ;
+                var h3 = $("#oturumlar").offset().top ;
+                var h4 = $("#nerede").offset().top ;
+                var h5 = $("#sponsorlar").offset().top ;
+                console.log(h1);
                 $(document).scroll(function  (event) {
                 var top = $(window).scrollTop();
-                console.log(top);
-                if(top < 609)
+                if(top < h2 -1)
                 {
                     $("li.active").removeClass('active');
                     $(".navbar-right  >  li").eq(0).addClass('active');
                 }
-                else if( top > 609 && top < 941)
+                else if( top > h2 -1 && top < h3 -1)
                 {
                     $("li.active").removeClass('active');
                     $(".navbar-right > li").eq(1).addClass('active');
                 }
-                else if( top > 941 && top < 1954)
+                else if( top > h3 -1 && top < h4 -1)
                 {
                     $("li.active").removeClass('active');
                     $(".navbar-right > li").eq(2).addClass('active');
                 }
-                else if( top > 1954 && top < 2262)
+                else if( top > h4 -1 && top < h5 -1 )
                 {
                     $("li.active").removeClass('active');
                     $(".navbar-right > li").eq(3).addClass('active');
                 }
-                else if( top > 2262)
+                else if( top > h5 -1    )
                 {
                     $("li.active").removeClass('active');
                     $(".navbar-right > li").eq(4).addClass('active');
