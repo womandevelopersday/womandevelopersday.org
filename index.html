@@ -68,16 +68,16 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="#" rel="nofollow"><img class="pull-left" src="images/header.png" height="45px" alt="logo"/><!-- <h3>PAUFSC / WOMAN DEVELOPERS DAY</h3> --></a>
+                                <a class="navbar-brand"  href="#" rel="nofollow"><img class="pull-left" src="images/header.png" height="45px" alt="logo"/><!-- <h3>PAUFSC / WOMAN DEVELOPERS DAY</h3> --></a>
                         </div>
                         <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                             <ul class="nav navbar-nav navbar-right" style="margin-top: 35px;">
-                                <li class="active"><a href="#templatemo-carousel">Anasayfa</a></li>
+                                <li class="active"><a href="#anasayfa">Anasayfa</a></li>
                                 <li class=""><a href="#hakkinda">Hakkında</a></li>
                                 <li class=""><a href="#oturumlar">Oturumlar</a></li>
                                 <li class=""><a href="#nerede">Nerede?</a></li>
                                 <li class=""><a href="#sponsorlar">Sponsorlar</a></li>
-                                <li class="btn-primary"><a style="color:white;" href="#">Hemen Başvur</a></li>
+                                <li class="btn-primary"><a target="_blank" style="color:white;" href="http://www.eventbrite.com/e/woman-developers-day-tickets-11300214245?aff=eorg">Hemen Başvur</a></li>
                                 <!-- <li><a href="#templatemo-about">ABOUT</a></li>
                                 <li><a href="#templatemo-portfolio">PORTFOLIO</a></li>
                                 <li><a href="#templatemo-blog">BLOG</a></li>
@@ -91,12 +91,12 @@
 
         <div>
             <!-- Carousel -->
-            <div style="background:none;" id="templatemo-carousel" class="carousel slide" data-ride="carousel">
+            <div style="background:none;" id="anasayfa" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                <!--  <ol class="carousel-indicators">
-                    <li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#templatemo-carousel" data-slide-to="1"></li>
-                    <li data-target="#templatemo-carousel" data-slide-to="2"></li>
+                    <li data-target="#anasayfa" data-slide-to="0" class="active"></li>
+                    <li data-target="#anasayfa" data-slide-to="1"></li>
+                    <li data-target="#anasayfa" data-slide-to="2"></li>
                 </ol>-->  
                <div class="carousel-inner">
                     <div class="item active">
@@ -112,7 +112,7 @@
                                 <p>TARİH : 03 MAYIS 2014 </p>
                                 <p>SAAT : 10:00 </p>
                                 <p id="timeleft">Time Released!</p>
-                                <p><a href="#"  class="active btn btn-primary">Hemen Başvur</a></p>
+                                <p><a href="http://www.eventbrite.com/e/woman-developers-day-tickets-11300214245?aff=eorg" target="_blank" class="active btn btn-primary">Hemen Başvur</a></p>
                             </div>
                         </div>
                     </div>
@@ -141,9 +141,9 @@
                             </div>
                         </div> -->
                 </div>
-                <!-- <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> -->
-            </div><!-- /#templatemo-carousel -->
+                <!-- <a class="left carousel-control" href="#anasayfa" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#anasayfa" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a> -->
+            </div><!-- /#anasayfa -->
         </div>
 
        <!--  <div class="templatemo-welcome" id="templatemo-welcome">
@@ -806,7 +806,7 @@
                 $(".navbar-right  li a").click(function(event) {
                     var cta = $(this).attr("href");//call to action
                     var offset = $(cta).offset().top;
-                    if(cta == "#templatemo-carousel")
+                    if(cta == "#anasayfa")
                     {
                         $('html, body').stop().animate({
                          scrollTop: 0
@@ -830,7 +830,7 @@
                 });
                 austDay = new Date("2014 5 3 10:00:00");
                 $('#timeleft').countdown({until: austDay});
-                var h1 = $("#templatemo-carousel").offset().top;
+                var h1 = $("#anasayfa").offset().top;
                 var h2 = $("#hakkinda").offset().top ;
                 var h3 = $("#oturumlar").offset().top ;
                 var h4 = $("#nerede").offset().top ;

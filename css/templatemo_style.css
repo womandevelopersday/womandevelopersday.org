@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 /* ------ Carousel ----- */
 
-#templatemo-carousel {
+#anasayfa {
     background: url('../images/templatemo_carousel_bg.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,14 +67,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     height: 500px;
 }
 
-#templatemo-carousel .carousel-caption {
+#anasayfa .carousel-caption {
     z-index: 10;
 }
 
-#templatemo-carousel .item {
+#anasayfa .item {
     height: 500px;
 }
-#templatemo-carousel .carousel-inner > .item > img {
+#anasayfa .carousel-inner > .item > img {
     position: absolute;
     min-width: 100%;
     height: 500px;
@@ -83,13 +83,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 @media (min-width: 768px) {
-    #templatemo-carousel .carousel-caption p {
+    #anasayfa .carousel-caption p {
         margin-bottom: 20px;
         line-height: 1.4;
         font-size: 21px;
     }
 
-    #templatemo-carousel .carousel-caption {
+    #anasayfa .carousel-caption {
         padding-bottom: 140px;
         right: 20%;
         left: 20%;
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 @media (max-width: 768px) {
-    #templatemo-carousel .carousel-caption {
+    #anasayfa .carousel-caption {
         padding-bottom: 120px;
     }
 }
