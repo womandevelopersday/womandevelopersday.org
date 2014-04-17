@@ -492,10 +492,11 @@ Bonus:Rails Girls nedir, nasıl organize edilir? konuları üzerine yapılacak.
 
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js"  type="text/javascript"></script>
-        <script src="js/jquery.plugin.min.js"  type="text/javascript"></script>
-        <script src="js/jquery.countdown.js"  type="text/javascript"></script>
-        <script src="js/jquery.countdown-tr.js"  type="text/javascript"></script>
+        <!-- // <script src="js/jquery.plugin.min.js"  type="text/javascript"></script> -->
+        <!-- // <script src="js/jquery.countdown.js"  type="text/javascript"></script> -->
+        <!-- // <script src="js/jquery.countdown-tr.js"  type="text/javascript"></script> -->
         <script src="js/jquery.browser.min.js"  type="text/javascript"></script>
+        <script src="js/clock.js" type="text/javascript"></script>
         <script>
             $(document).ready(function() {
                 $(".navbar-right  li a").click(function(event) {
@@ -523,10 +524,9 @@ Bonus:Rails Girls nedir, nasıl organize edilir? konuları üzerine yapılacak.
                     // $('#year').text(austDay.getFullYear());
                 });
                 console.log($.browser)
-                if($.browser.msie == undefined && $.browser.opera == undefined)
+                if($.browser.msie == undefined && $.browser.chrome == undefined && $.browser.opera == undefined)
                 {
-                    austDay = new Date("2014 5 3 10:00:00");
-                    $('#timeleft').countdown({until: austDay});
+                    calctime();
                 }
                 else
                 {
