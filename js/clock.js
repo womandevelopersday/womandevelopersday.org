@@ -16,7 +16,7 @@ function calctime()
 	result = divInt(result,24);
 	gun = result;
 
-	$("#timeleft").html(gun+" Gün"+saat+ " Saat " + dk + " Dakika ");
+	$("#timeleft").html("<span>"+ gun + "</span><span>Gün</span><span>" + saat + "</span><span>Saat</span><span> " + dk + "</span> <span>Dakika</span>");
 
 	// console.log();
 	setTimeout(function() {
