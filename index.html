@@ -144,13 +144,13 @@
                                 <tr>
                                     <td valign="top">
                                         <div  class="images pull-left" style="float:left;padding-right: 10px;margin-top: 15px;">
-                                        <img class="lecutrer" src="images/avatar1.jpg" width="72">
-                                        <img class="lecutrer" src="images/avatar2.jpg" width="72" style="margin-top: 315px;">
-                                        <img class="lecutrer" src="images/avatar3.jpg" width="72" style="margin-top: 300px;">
-                                        <img class="lecutrer" src="images/avatar4.jpg" width="72" style="margin-top: 370px;">
-                                        <img class="lecutrer" src="images/avatar5.jpg" width="72" style="margin-top: 325px;">
-                                        <img class="lecutrer" src="images/avatar6.png" width="72" style="margin-top: 325px;">
-                                        <img class="lecutrer" src="images/avatar7.png" width="72" style="margin-top: 252px;">
+                                        <img class="lecturer" src="images/avatar1.jpg" width="72">
+                                        <img class="lecturer" src="images/avatar2.jpg" width="72">
+                                        <img class="lecturer" src="images/avatar3.jpg" width="72">
+                                        <img class="lecturer" src="images/avatar4.jpg" width="72">
+                                        <img class="lecturer" src="images/avatar5.jpg" width="72">
+                                        <img class="lecturer" src="images/avatar6.png" width="72">
+                                        <img class="lecturer" src="images/avatar7.png" width="72">
                                         </div>
                                     </td>
                                     <td valign="top">
@@ -637,6 +637,30 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
         <script src="js/clock.js" type="text/javascript"></script>
         <script>
             $(document).ready(function() {
+                function resizepics () {
+                    var els = $(".lecturer");
+                    var hs = $(".text > h1");
+                    var top = $(hs[0]).offset().top;
+                    $.each(els, function(index, val) {
+                        el = $(els[index]);
+                        h = $(hs[index]);
+                        // console.log(top); 
+                        if(index > 0)
+                        {
+                            mt = parseInt(h.offset().top - top) - 72;
+                            console.log(mt);
+                            el.css("margin-top",mt + "px");
+                            top = h.offset().top;
+                        }
+                        
+                    });
+                console.log(els.length , els.length);
+                }
+                resizepics();
+                $(window).resize(function(event) {
+                    event.preventDefault();
+                    resizepics();
+                });
                 $(".navbar-right  li a").click(function(event) {
                     var cta = $(this).attr("href");//call to action
                     var offset = $(cta).offset().top;
