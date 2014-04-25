@@ -383,6 +383,15 @@ h1, h2, h3, h4, h5, h6, span, p { }
     font-size: 21px;
     color: #FF7600;
 }
+h3.sponsors
+{
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    color:#428bca;
+    font-weight: bold;
+}
 
 .txt_darkgrey_strong, .txt_darkgrey_strong:hover {
 	color: #333;
