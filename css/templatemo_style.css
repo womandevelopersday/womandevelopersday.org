@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
 }
 
 .hr_gray {
-    border: 1px solid #cccccc; 
+    border: 1px solid #FF7600; 
 }
 
 .templatemo-team {
@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
 
 #templatemo-contact {
 	margin-top:100px; 
-	border-top: 1px solid #cccccc; 
+	border-top: 1px solid #FF7600; 
 	font-size:14px;
 }
 .templatemo-contact-map {
@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
 }
 
 .templatemo-partners {
-	border-top: 2px solid #cccccc;
+	border-top: 2px solid #FF7600;
 }
 
 .templatemo-partners .templatemo-partner-item {
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
 }
 
 .templatemo-footer {
-	border-top: 2px solid #cccccc; 
+	border-top: 2px solid #FF7600; 
 	margin-top: 100px;
 }
 
