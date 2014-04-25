@@ -1,4 +1,4 @@
-/* Credit: http://www.templatemo.com */
+
 
 body, html { overflow-x:hidden; }
 
@@ -6,13 +6,35 @@ body {
     /*background-color: #ffffff;*/
     font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif
     font-size: 12px;
-	
-	font-weight: 300; 
-	font-style: normal; 
-	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-	-webkit-text-size-adjust: 100%;
+    
+    font-weight: 300; 
+    font-style: normal; 
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
 }
 
+.map-content
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.map
+{
+    position: relative;
+}
+.vcard
+{
+    position:absolute;
+    z-index: 5000;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    right: 10px;
+    top: 30px;
+    padding: 25px;
+    border: 1px solid #FF7600;
+    
+}
 h1, h2, h3, h4, h5, h6, span, p { }
 
 * {
