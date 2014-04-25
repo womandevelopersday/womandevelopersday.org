@@ -754,13 +754,13 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
                         if(index > 0)
                         {
                             mt = parseInt(h.offset().top - top) - 72;
-                            console.log(mt);
+                            // console.log(mt);
                             el.css("margin-top",mt + "px");
                             top = h.offset().top;
                         }
                         
                     });
-                console.log(els.length , els.length);
+                // console.log(els.length , els.length);
                 }
                 resizepics();
                 $(window).resize(function(event) {
@@ -791,21 +791,14 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
                      }, 2000);
                     // $('#year').text(austDay.getFullYear());
                 });
-                console.log($.browser)
-                if($.browser.msie == undefined && $.browser.safari == undefined && $.browser.chrome == undefined && $.browser.opera == undefined)
-                {
-                    calctime();
-                }
-                else
-                {
-                    //$('#timeleft').remove();
-                }
+                // console.log($.browser)
+                calctime();
                 var h1 = $("#anasayfa").offset().top;
                 var h2 = $("#hakkinda").offset().top ;
                 var h3 = $("#oturumlar").offset().top ;
                 var h4 = $("#nerede").offset().top ;
                 var h5 = $("#sponsorlar").offset().top ;
-                console.log(h1);
+                // console.log(h1);
                 $(document).scroll(function  (event) {
                 var top = $(window).scrollTop();
                 if(top < h2 -1)

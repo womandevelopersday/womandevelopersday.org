@@ -2,11 +2,12 @@ function divInt(a,b)
 {
 	return parseInt(a/b);
 }
+
 function calctime()
 {
-	var goal = new Date("2014 5 3 10:00:00");
+	var goal = new Date(2014,4,3,10,0,0);
 	var now = new Date();
-	result = goal - now;
+	result =goal.getTime() - now.getTime();
 	result = divInt(result,1000);
 	sn = result % 60;
 	result = divInt(result,60);
@@ -17,8 +18,6 @@ function calctime()
 	gun = result;
 
 	$("#timeleft").html("<span>"+ gun + "</span><span>Gün</span><span>" + saat + "</span><span>Saat</span><span> " + dk + "</span> <span>Dakika</span>");
-
-	// console.log();
 	setTimeout(function() {
 		calctime();
 	}, 999);
