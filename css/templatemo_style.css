@@ -380,7 +380,8 @@ h1, h2, h3, h4, h5, h6, span, p { }
 }
 
 .txt_darkgrey {
-    color: #333333;
+    font-size: 21px;
+    color: #FF7600;
 }
 
 .txt_darkgrey_strong, .txt_darkgrey_strong:hover {
@@ -399,7 +400,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
 }
 
 .templatemo-line-header span {
-    font-size: 18px; 
+    font-size: 21px; 
     float :left; 
     margin-top: 10px;
 }
