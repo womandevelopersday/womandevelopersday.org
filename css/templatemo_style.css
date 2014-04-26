@@ -23,6 +23,8 @@ body {
 .map
 {
     position: relative;
+    margin-top: 30px;
+    margin-bottom: -65px;
 }
 .vcard
 {
