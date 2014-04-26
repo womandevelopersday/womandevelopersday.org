@@ -20,7 +20,7 @@
         <style>
         body
         {
-            background: url(images/templatemo_carousel_bg2.jpg) fixed repeat-x;
+            background: url(images/back.png) fixed repeat-x;
         }
         #timeleft  span
         {
@@ -53,7 +53,7 @@
                                 <li class=""><a href="#oturumlar">Oturumlar</a></li>
                                 <li class=""><a href="#nerede">Nerede?</a></li>
                                 <li class=""><a href="#sponsorlar">Sponsorlar</a></li>
-                                <li class="btn-primary"><a target="_blank" style="color:white;" href="http://www.eventbrite.com/e/woman-developers-day-tickets-11300214245?aff=eorg">Hemen Başvur</a></li>
+                                <li class="btn-primary"><a target="_blank" style="background:#ED098E;border:0px;color:white;" href="http://www.eventbrite.com/e/woman-developers-day-tickets-11300214245?aff=eorg">Hemen Başvur</a></li>
                             </ul>
                         </div><!--/.nav-collapse -->
                     </div><!--/.container-fluid -->
@@ -67,13 +67,13 @@
                <div class="carousel-inner">
                     <div class="item active">
                         <div class="container">
-                            <div class="carousel-caption " style="background:rgba(0,0,0,0.5);">
-                                <h1>WOMAN DEVELOPERS DAY</h1>
-                                <p>YER : PAMUKKALE ÜNİVERSİTESİ KAMPÜSÜ</p>
-                                <p>TARİH : 03 MAYIS 2014 </p>
-                                <p>SAAT : 10:00 </p>
-                                <p id="timeleft"></p>
-                                <p><a href="http://www.eventbrite.com/e/woman-developers-day-tickets-11300214245?aff=eorg" target="_blank" class="active btn btn-primary">Hemen Başvur</a></p>
+                            <div class="carousel-caption " style="background:rgba(0,0,0,0.85);border:2px solid #911E8F;">
+                                <h1 style="font-family:comic sans ms;font-size:40px;margin-bottom: 20px;"><b>WOMAN DEVELOPERS DAY</b></h1>
+                                <p style="font-family:comic sans ms;"><b>YER : PAMUKKALE ÜNİVERSİTESİ KAMPÜSÜ</b></p>
+                                <p style="font-family:comic sans ms;"><b>TARİH : 03 MAYIS 2014</b> </p>
+                                <p style="font-family:comic sans ms;"><b>SAAT : 10:00</b> </p>
+                                <p style="font-family:comic sans ms;" id="timeleft"></p>
+                                <p style="font-family:comic sans ms;"><a href="http://www.eventbrite.com/e/woman-developers-day-tickets-11300214245?aff=eorg" style="background: #ED098E;border:0px;padding: 15px; font-size:20px" target="_blank" class="active btn btn-primary">Hemen Başvur</a></p>
                             </div>
                         </div>
                     </div>
@@ -91,13 +91,27 @@
                 <div class="row">
                     <div class="templatemo-line-header" >
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
-                            WDD Hakkında?</a></span>
-                            <hr class="team_hr team_hr_right hr_gray"  />
+                            <hr class="team_hr team_hr_left hr_gray" style="border-color:#00AEDD"/><span class="txt_darkgrey" style="color:#00AEDD;">
+                            <b>WDD Hakkında?</b></a></span>
+                            <hr class="team_hr team_hr_right hr_gray" style="border-color:#00AEDD"  />
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="templatemo-gallery-category" style="background:white;font-size:16px; margin-top:80px;">
+
+                        
+                        <div id="floatleft" style="display:none;background:rgba(0,0,0,0.85); left:0px;position:absolute;height: 100%;width: 100%;z-index: 6000;">
+                                    
+                                <center>
+                                    <img src="images/afis.jpg" alt="">
+                                </center>
+                        
+                        </div>
+
+                        <div id="floatleftclick" style="position: absolute;left:0%;">
+                            <a href="#" style="padding: 20px;color:white;" class="btn btn-primary"><b>A<BR/>F<br/>İ<br/>Ş<br/>İ<br/>M<br/>İ<br/>Z</b></a>
+                        </div>
+
                         <div class="text-center">
                                Woman Developers Day, Pamukkale Üniversitesi Özgür Yazılım Topluluğu olarak bu yıl ilkini düzenleyeceğimiz,<br/> sektörde başarısını kanıtlamış kadın yazılımcıları, yazılımcı adaylarıyla buluşturacak ve kadının yazılım <br/>dünyasındaki yerinin altınının çizileceği bir etkinliktir. 
                             <br>
@@ -111,15 +125,32 @@
         <div id="oturumlar" style="background:white;">
             <div class="container">
                 <div class="row">
+                    
                     <div class="templatemo-line-header" >
+
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
-                            OTURUMLAR</span>
-                            <hr class="team_hr team_hr_right hr_gray"  />
+                            <hr class="team_hr team_hr_left hr_gray" style="border-color: #8CC540;"/>
+                            <span class="txt_darkgrey" style="color:#8CC540;">
+                                <b>OTURUMLAR</b>
+                            </span>
+                            <hr class="team_hr team_hr_right hr_gray" style="border-color: #8CC540;"  />
                         </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="templatemo-gallery-category" style="background:white;font-size:16px; margin-top:80px;">
+                        <div id="floatright" style="display:none;background:rgba(0,0,0,0.85); left:0px;position:absolute;height: 100%;width: 100%;z-index: 6000;">
+                                    
+                                <center>
+                                    <img src="images/takvim.jpg" alt="">
+                                </center>
+                        
+                        </div>
+
+                        <div id="floatrightclick" style="position: absolute;right:0%;">
+                            <a href="#" style="background:#8CC540;border-color:#8CC540;padding: 20px;color:white;" class="btn btn-primary"><b>
+                                P<BR/>R<BR/>O<BR/>G<BR/>R<BR/>A<BR/>M<BR/>I<BR/>M<BR/>I<BR/>Z
+                            </b></a>
+                        </div>
                         <div class="text-center ">
                             <table style="margin-left: 70px; width:80%;border:0">
                                 <tr>
@@ -147,7 +178,7 @@
 </p>
 <hr>
                                                 <p class="text-left" style="margin-top: 50px;margin-bottom: 50px;">DBA at Markafoni,<br/>
-Yıldız Teknik Üniversitesi Matematik Mühendisliği bölümünde okudu, algoritmalar ve veri tabanları ile orada tanıştı. PostgreSQL ile karşılaşana dek birçok veri tabanı ile çalıştı ama artık pek tercih etmiyor. Açık kaynak kod ve özgür yazılım seven bir DBA. Çok az şey biliyor ve çok şey öğrenmek istiyor, şu an Markafoni'de çalışıyor. Konuşmacımız etkinliğimizde  bir veri tabanı yönetim sistemi olan Postgress üzerine; "Postgress nedir ?” , “Öğrenmek ve anlamak için neler yapılmalı?, “Neden postgress ?” gibi sorulara ve daha fazlasına cevap bulacağımız bir sunum yapacak
+Yıldız Teknik Üniversitesi Matematik Mühendisliği bölümünde okudu, algoritmalar ve veri tabanları ile orada tanıştı. PostgreSQL ile karşılaşana dek birçok veri tabanı ile çalıştı ama artık pek tercih etmiyor. Açık kaynak kod ve özgür yazılım seven bir DBA. Çok az şey biliyor ve çok şey öğrenmek istiyor, şu an Markafoni'de çalışıyor. Konuşmacımız etkinliğimizde  bir veri tabanı yönetim sistemi olan Postgress üzerine; "Postgress nedir ?” , “Öğrenmek ve anlamak için neler yapılmalı?, “Neden postgress ?” gibi sorulara ve daha fazlasına cevap bulacağımız bir sunum yapacaktır.
 </p>
                                                 <h4 class="date text-left">11.25 - 12.00</h4>
                                                 <h1 class="text-left">Nesrin Kalender</h1>
@@ -213,7 +244,7 @@ Software Engineer olarak Cybersoft ve Anvato şirketlerinde görev almış olan 
 Ruby on Rails Atölyesi;  Ruby programlama diline giriş. Rails ile tanışma. Bir uygulama örneği ile MVC yapı ve hızlı prototipleme. Basitçe versiyonlama ve deployment teknolojileri. 
 <br/>
 <br/>
-Bonus:Rails Girls nedir, nasıl organize edilir? konuları üzerine yapılacak.
+Bonus:Rails Girls nedir, nasıl organize edilir? konuları üzerine yapılacaktır.
 
 
 </p>
@@ -224,7 +255,7 @@ Bonus:Rails Girls nedir, nasıl organize edilir? konuları üzerine yapılacak.
 
                                                 </p>
                                                 <hr>
-                                                <p class="text-left" style="margin-top: 50px;margin-bottom: 50px;">Eskişehir Osmangazi Üniversitesi 4. Sınıf öğrencisi. Özgür yazılımla Linux Yaz Kampı, Akademik Bilişim gibi etkinliklerde tanıştı. Bir dönem boyunca okulun BBTK kulübünde OOP dersleri verdi ve 1 yıl asistan öğrencilik görevini üstlendi. Java programlama diline giriş ile başlayacak atölye sonunda tanışma projesi tamamlanmış olacak
+                                                <p class="text-left" style="margin-top: 50px;margin-bottom: 50px;">Eskişehir Osmangazi Üniversitesi 4. Sınıf öğrencisi. Özgür yazılımla Linux Yaz Kampı, Akademik Bilişim gibi etkinliklerde tanıştı. Bir dönem boyunca okulun BBTK kulübünde OOP dersleri verdi ve 1 yıl asistan öğrencilik görevini üstlendi. Java programlama diline giriş ile başlayacak atölye sonunda tanışma projesi tamamlanmış olacaktır.
 
 </p>
                                                 <h4 class="date text-left">14.30 - 18.00</h4>
@@ -254,7 +285,7 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
 
                                                 </p>
                                                 <hr>
-                                                <p class="text-left" style="margin-top: 50px;margin-bottom: 50px;">Eskişehir Osmangazi Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi. Linux Yaz Kampında iki haftalık PHP Eğitimi'ne katıldı. Üçüncü sınıfta BBTK'da başkanlık görevini yaptı. PHP atölyesinde örnek bir framework, basit crud işlemleri yapılacak
+                                                <p class="text-left" style="margin-top: 50px;margin-bottom: 50px;">Eskişehir Osmangazi Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisi. Linux Yaz Kampında iki haftalık PHP Eğitimi'ne katıldı. Üçüncü sınıfta BBTK'da başkanlık görevini yaptı. PHP atölyesinde örnek bir framework, basit crud işlemleri yapılacaktır.
 
 
 
@@ -277,9 +308,11 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
                         <div class="row">
                             <div class="templatemo-line-header" >
                                 <div class="text-center">
-                                    <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
-                                    WDD NEREDE?</a></span>
-                                    <hr class="team_hr team_hr_right hr_gray"  />
+                                    <hr class="team_hr team_hr_left hr_gray" style="border-color: #7B87B8;"/>
+                                    <span class="txt_darkgrey" style="color:#7B87B8;">
+                                        <b>WDD NEREDE?</b>
+                                    </span>
+                                    <hr class="team_hr team_hr_right hr_gray" style="border-color: #7B87B8;"  />
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -306,9 +339,11 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
                 <div class="row">
                     <div class="templatemo-line-header" >
                         <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">
-                            SPONSORLAR</a></span>
-                            <hr class="team_hr team_hr_right hr_gray"  />
+                            <hr class="team_hr team_hr_left hr_gray" style="border-color: #EC098E;"/>
+                            <span class="txt_darkgrey" style="color:#EC098E;">
+                                <b>WDD NEREDE?</b>
+                            </span>
+                            <hr class="team_hr team_hr_right hr_gray" style="border-color: #EC098E;"  />
                         </div>
                     </div>
                     <div class="clearfix"></div>
@@ -674,10 +709,40 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
         <script src="js/clock.js" type="text/javascript"></script>
         <script>
             $(document).ready(function() {
+                $("#floatleft").click(function(event) {
+                    event.preventDefault();
+                    $("#floatleft").fadeTo('slow', 0,function  (event) {
+                        $(this).hide();
+                    });
+                });
+                $("#floatleftclick a").click(function(event) {
+                    event.preventDefault();
+                    $("#floatleft").fadeTo('slow', 1);
+                });
+                $("#floatright").click(function(event) {
+                    event.preventDefault();
+                    $("#floatright").fadeTo('slow', 0,function  (event) {
+                        $(this).hide();
+                    });
+                });
+                $("#floatrightclick a").click(function(event) {
+                    event.preventDefault();
+                    $("#floatright").fadeTo('slow', 1);
+                });
+                function afis () {
+                    var top = $(window).scrollTop();
+                    $("#floatleft").css("top",top);
+                    $("#floatright").css("top",top);
+                      var height = $(window).height;
+                        height-=40;
+                    $("#floatleft > img").css("height",height);
+                    $("#floatright > img").css("height",height);
+                }
                 function resizepics () {
                     var els = $(".lecturer");
                     var hs = $(".text > h1");
                     var top = $(hs[0]).offset().top;
+
                     $.each(els, function(index, val) {
                         el = $(els[index]);
                         h = $(hs[index]);
@@ -730,8 +795,11 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
                 var h4 = $("#nerede").offset().top ;
                 var h5 = $("#sponsorlar").offset().top ;
                 // console.log(h1);
+                afis();
                 $(document).scroll(function  (event) {
                 var top = $(window).scrollTop();
+                afis();
+
                 if(top < h2 -1)
                 {
                     $("li.active").removeClass('active');

@@ -16,6 +16,7 @@ body {
 .map-content
 {
     height: 100%;
+    width: 90%;
     margin: 0;
     padding: 0;
 }
@@ -112,9 +113,11 @@ h1, h2, h3, h4, h5, h6, span, p { }
     }
 
     #anasayfa .carousel-caption {
-        padding-bottom: 140px;
-        right: 20%;
-        left: 20%;
+        /*padding-bottom: 140px;*/
+        right: 26%;
+        left: 26%;
+        top:5%;
+        bottom:20%;
     }
 }
 
@@ -203,13 +206,13 @@ h1, h2, h3, h4, h5, h6, span, p { }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #00AFDE;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #00AFDE;
     color:#fff;
 }
 
@@ -225,13 +228,13 @@ h1, h2, h3, h4, h5, h6, span, p { }
     /*background-color:#fff;*/
     background: rgb(255,255,255);
     border:none;
-    border-bottom: 1px solid  #ff7600;
+    border-bottom: 1px solid  #00AFDE;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ff7600;
+    background-color: #00AFDE;
     color:#fff;
 }
 
@@ -389,7 +392,7 @@ h3.sponsors
     margin: auto;
     margin-bottom: 20px;
     margin-left: -20px;
-    color:#428bca;
+    /*color:#428bca;*/
     font-weight: bold;
 }
 
