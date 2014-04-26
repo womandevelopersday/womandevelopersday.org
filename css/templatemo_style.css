@@ -392,7 +392,14 @@ h3.sponsors
     color:#428bca;
     font-weight: bold;
 }
-
+h3.sponsors_mini
+{
+    padding-top: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    color:#428bca;
+    font-weight: bold;
+}
 .txt_darkgrey_strong, .txt_darkgrey_strong:hover {
 	color: #333;
 	text-decoration:none;

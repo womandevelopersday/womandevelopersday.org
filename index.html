@@ -784,6 +784,17 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
             });
         });
         </script>
+        <script>
+            jQuery(document).ready(function($) {
+                var width = $( window ).width();
+                console.log(width)
+                if(width < 800)
+                {
+                    $(".sponsors").removeClass('sponsors').addClass('sponsors_mini');
+                    $("#sponsorlar li").css("margin-left","0px");
+                }
+            });
+        </script>
          <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyATWUvgie-nah-x9HiFSCArakBnCtZ1lnE&sensor=true"></script>
      
                <script src="http://phpkonf.org/assets/gomap/jquery.gomap-1.3.2.js"></script> 
