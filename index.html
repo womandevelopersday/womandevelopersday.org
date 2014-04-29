@@ -896,6 +896,7 @@ Android Atölyesi; Android life-cycle'ı, kontrol elemanları hakkında kısa bi
                 console.log(width)
                 if(width < 600)
                 {
+                    $("td").eq(0).css("width","90px");
                     $("#floatleftclick,#floatrightclick").hide();
                     $(".sponsors").removeClass('sponsors').addClass('sponsors_mini');
                     $("#sponsorlar li").css("margin-left","0px");
