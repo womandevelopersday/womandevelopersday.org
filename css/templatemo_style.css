@@ -2,6 +2,11 @@
 
 body, html { overflow-x:hidden; }
 
+.woman
+{
+    position: absolute;
+    margin-top: 149px;
+}
 body {
     /*background-color: #ffffff;*/
     font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif
