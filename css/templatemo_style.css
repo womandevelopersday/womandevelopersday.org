@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
 	clear: both;
 }
 
-.height30 {
+.height {
 	height: 30px;
 }
 
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
     color:#ffffff;
 }
 
-.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
+.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange:active, .open ,.dropdown-toggle.btn-orange {
     background-color: #d35400;
     color:#ffffff;
 }
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6, span, p { }
     color:#ffffff;
 }
 
-.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
+.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green:active, .open, .dropdown-toggle.btn-green {
     background-color: #27ae60;
     color:#ffffff;
 }
